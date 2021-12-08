@@ -1,0 +1,19 @@
+.video {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.arquivo-video {
+    height: 400px;
+    border: 5px solid #;
+}
+
+.linha-divisoria {
+    height: 2px;
+    width: 100%;
+    background-color: #4A25AA;
+    border: none;
+    margin: 0;
+}

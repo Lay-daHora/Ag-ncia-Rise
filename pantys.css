@@ -1,0 +1,34 @@
+.projetos-pantys {
+    display: none;
+}
+
+.activepantys {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.projetos-pantys h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pantys-artes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pantys-artes li {
+    width: 40%;
+}
+
+.pantys-artes li:hover {
+    transform: scale(1.1);
+}
+
+.pantys-artes li img {
+    width: 100%;
+    border: 3px solid #4A25AA;
+}

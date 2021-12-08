@@ -1,0 +1,42 @@
+body {
+    font-family: baucher-gothic-urw-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:  30px;
+    border: 5px solid #ffffff;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 15px 18px 15px;
+    align-items: center;
+    z-index: 3;
+}
+
+.cabecalho img {
+    width: 160px;
+    height: 47px;
+    margin-left: 35px;
+    z-index: 4;
+}
+
+.cabecalho ul {
+    display: flex;
+    z-index: 4;
+}
+
+.cabecalho ul li {
+    font-family: futura-pt, sans-serif;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #4A25AA;
+}
+
+.cabecalho ul li a {
+    text-decoration: none;
+}
+
+.cabecalho ul li a:hover {
+    color: #F8C1B8;
+}

@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    z-index: 4;
+}
+
+.about div {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    z-index: 4;
+}
+
+.about h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    z-index: 4;
+}
+.about p {
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: justify;
+    z-index: 4;
+}
+
+.missao {
+    margin-top: 1.5%;
+}

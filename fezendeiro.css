@@ -1,0 +1,34 @@
+.projetos-fazendeiro {
+    display: none;
+}
+
+.activefazendeiro {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.projetos-fazendeiro h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fazendeiro-artes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fazendeiro-artes li {
+    width: 25%;
+}
+
+.fazendeiro-artes li:hover {
+    transform: scale(1.2);
+}
+
+.fazendeiro-artes li img {
+    width: 100%;
+    border: 3px solid #4A25AA;
+}

@@ -1,0 +1,49 @@
+.projetos {
+    background-color: #C5B4E3;
+    padding-top: 20px;
+}
+
+.projetos-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetos-title h2 {
+    font-size: 70px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.clientes {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(42, 10, 99, 0.18);
+    box-shadow: 0px 15px 65px 3px rgba(0, 0, 0, 0.25);
+}
+
+.clientes li {
+    width: 20%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fazendeiro {
+    width: 80%;
+    padding-top: 18px;
+}
+
+#lacta {
+    width: 70%;
+}
+
+#pantys {
+    width: 100%;
+}
+
+.clientes li img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
